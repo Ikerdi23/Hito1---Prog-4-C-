@@ -23,4 +23,9 @@ int importarMunicipiosCSV(const char* ruta);
  */
 int importarParadasCSV(const char* ruta);
 
+int importarLineasCSV(const char* ruta);
+int importarLineaParadaCSV(const char* ruta);
+int importarHorariosCSV(const char* ruta);
+int importarIncidenciasCSV(const char* ruta);
+
 #endif // IMPORTADOR_H
