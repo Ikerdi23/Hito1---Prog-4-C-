@@ -1,0 +1,6 @@
+# Configuración del Sistema de Transporte Público Bizkaia
+# Formato: Clave=valor
+
+DB_PATH=data/transporte_bizkaia.db
+LOG_LEVEL=INFO
+# Añadir más parámetros según sea necesario

@@ -1,0 +1,19 @@
+[04-04-2026 15:55:54] [INFO] Sistema de Transporte Público Bizkaia iniciado.
+[04-04-2026 15:55:55] [INFO] Conexion a SQLite establecida.
+[04-04-2026 15:55:55] [INFO] Tablas de la base de datos inicializadas correctamente.
+[04-04-2026 15:56:08] [INFO] Login exitoso: Usuario 'admin'
+[04-04-2026 15:57:05] [INFO] Iniciando importación masiva de datos...
+[04-04-2026 15:57:05] [INFO] Importados 8 municipios desde data/municipios.csv
+[04-04-2026 15:57:05] [INFO] Importadas 7 paradas desde data/paradas.csv
+[04-04-2026 15:57:05] [INFO] Fin de la importación masiva.
+[04-04-2026 15:57:22] [INFO] Iniciando importación masiva de datos...
+[04-04-2026 15:57:22] [INFO] Importados 8 municipios desde data/municipios.csv
+[04-04-2026 15:57:22] [INFO] Importadas 7 paradas desde data/paradas.csv
+[04-04-2026 15:57:22] [INFO] Fin de la importación masiva.
+[04-04-2026 15:57:30] [INFO] Sesion finalizada por el usuario.
+[04-04-2026 15:57:30] [INFO] Conexion a base de datos cerrada.
+[04-04-2026 15:57:30] [INFO] Sistema detenido correctamente.
+[04-04-2026 15:57:35] [INFO] Sistema de Transporte Público Bizkaia iniciado.
+[04-04-2026 15:57:35] [INFO] Conexion a SQLite establecida.
+[04-04-2026 15:57:35] [INFO] Tablas de la base de datos inicializadas correctamente.
+[04-04-2026 15:57:42] [INFO] Login exitoso: Usuario 'admin'
