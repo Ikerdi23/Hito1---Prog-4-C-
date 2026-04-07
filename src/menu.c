@@ -19,11 +19,11 @@ void lanzarMenuPrincipal() {
         printf(BOLDWHITE "   SISTEMA DE TRANSPORTE BIZKAIA         \n" RESET);
         printf(BOLDBLUE "=========================================\n" RESET);
         printf(" 1. Importar datos desde CSV\n");
-        printf(" 2. Gestionar Red (líneas y paradas)\n");
+        printf(" 2. Gestionar Red (lineas y paradas)\n");
         printf(" 3. Panel de Incidencias\n");
         printf(BOLDRED " 4. Salir\n" RESET);
         printf(BOLDBLUE "-----------------------------------------\n" RESET);
-        printf("Seleccione una opción: ");
+        printf("Seleccione una opcion: ");
 
         if (scanf("%d", &opcion) != 1) {
             while (getchar() != '\n');
@@ -32,7 +32,7 @@ void lanzarMenuPrincipal() {
 
         switch (opcion) {
             case 1:
-                printf("\n" BOLDGREEN "[PROCESO] Ejecutando importación masiva...\n" RESET);
+                printf("\n" BOLDGREEN "[PROCESO] Ejecutando importacion masiva...\n" RESET);
                 importarTodosLosCSV();
                 printf(BOLDGREEN "[OK] Carga finalizada.\n" RESET);
                 break;
@@ -46,7 +46,7 @@ void lanzarMenuPrincipal() {
                 printf("\nSaliendo...\n");
                 break;
             default:
-                printf("\n" BOLDRED "[!] Opción inválida.\n" RESET);
+                printf("\n" BOLDRED "[!] Opcion invalida.\n" RESET);
                 break;
         }
     } while (opcion != 4);
